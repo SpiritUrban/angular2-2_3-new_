@@ -1,18 +1,21 @@
 /*
-Error: Inconsistent indentation: 2 spaces were used for indentation, but the rest of the document was indented using 8 spaces.
-        on line 51 of styles.css
+Error: Inconsistent indentation: 1 space was used for indentation, but the rest of the document was indented using 2 spaces.
+        on line 132 of CHANGELOG.md
 
-46: C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/bin/sass:13:in `<top (required)>'
-47: C:/Ruby23-x64/bin/sass:23:in `load'
-48: C:/Ruby23-x64/bin/sass:23:in `<main>'
-49: *\/
-50: body:before {
-51:   white-space: pre;
-52:   font-family: monospace;
-53:   content: "Error: Invalid CSS after \"#369\": expected expression (e.g. 1px, bold), was \";\"\A         on line 2 of styles.css\A \A 1: h1 {\A 2:   color: #369;\A 3:   font-family: Arial, Helvetica, sans-serif;\A 4:   font-size: 250%;\A 5: }"; }
+127:   * a2-in-memory-web-api 0.1.6
+128:   * protractor 3.3.0
+129:   * typings 0.8.1
+130:   * zone.js 0.6.12
+131: 
+132:  * added favicon.ico
+133: 
+134:  * testing
+135:    - updated wallaby.js and karma.conf.js
+136:    - updated app.component.spec.ts
+137: 
 
 Backtrace:
-styles.css:51
+CHANGELOG.md:132
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:486:in `block in tabulate'
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:444:in `each'
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:444:in `each_with_index'
@@ -34,4 +37,4 @@ C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Inconsistent indentation: 2 spaces were used for indentation, but the rest of the document was indented using 8 spaces.\A         on line 51 of styles.css\A \A 46: C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/bin/sass:13:in `<top (required)>'\A 47: C:/Ruby23-x64/bin/sass:23:in `load'\A 48: C:/Ruby23-x64/bin/sass:23:in `<main>'\A 49: */\A 50: body:before {\A 51:   white-space: pre;\A 52:   font-family: monospace;\A 53:   content: \"Error: Invalid CSS after \\"#369\\": expected expression (e.g. 1px, bold), was \\";\\"\A         on line 2 of styles.css\A \A 1: h1 {\A 2:   color: #369;\A 3:   font-family: Arial, Helvetica, sans-serif;\A 4:   font-size: 250%;\A 5: }\"; }"; }
+  content: "Error: Inconsistent indentation: 1 space was used for indentation, but the rest of the document was indented using 2 spaces.\A         on line 132 of CHANGELOG.md\A \A 127:   * a2-in-memory-web-api 0.1.6\A 128:   * protractor 3.3.0\A 129:   * typings 0.8.1\A 130:   * zone.js 0.6.12\A 131: \A 132:  * added favicon.ico\A 133: \A 134:  * testing\A 135:    - updated wallaby.js and karma.conf.js\A 136:    - updated app.component.spec.ts\A 137: "; }
